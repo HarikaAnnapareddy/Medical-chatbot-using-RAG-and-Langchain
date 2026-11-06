@@ -1,0 +1,45 @@
+[project]
+name = "medical-chatbot-using-retrieval-augmented-generation-and-langchain-main"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Harika", email = "harikaannapareddy416@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb==0.5.5",
+    "diskcache==5.6.3",
+    "faiss-cpu==1.8.0",
+    "groq==0.11.0",
+    "huggingface-hub==0.24.7",
+    "langchain==0.2.16",
+    "langchain-community==0.2.16",
+    "langchain-core==0.2.38",
+    "langchain-groq==0.1.9",
+    "langchain-openai==0.1.23",
+    "loguru==0.7.2",
+    "numpy==1.26.4",
+    "openai==1.45.0",
+    "pandas==2.2.2",
+    "pydantic==2.9.1",
+    "pydantic-settings==2.5.2",
+    "pymupdf==1.24.10",
+    "pypdf==4.3.1",
+    "python-dotenv==1.0.1",
+    "sentence-transformers==3.1.1",
+    "sqlalchemy==2.0.35",
+    "streamlit==1.38.0",
+    "streamlit-chat==0.1.1",
+    "tiktoken==0.7.0",
+    "torch==2.4.1",
+    "transformers==4.44.2",
+    "unstructured==0.15.13",
+]
+
+[project.scripts]
+medical-chatbot-using-retrieval-augmented-generation-and-langchain-main = "medical_chatbot_using_retrieval_augmented_generation_and_langchain_main:main"
+
+[build-system]
+requires = ["uv_build>=0.12.11,<0.13.0"]
+build-backend = "uv_build"
